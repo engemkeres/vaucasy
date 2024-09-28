@@ -22047,7 +22047,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_Slide-03_Wuerth-WS-SLTV_10x2.5x6.4_P2.54mm"
+		(property "Footprint" "Button_Switch_SMD:SW_SPDT_PCM12"
 			(at 34.29 119.38 0)
 			(effects
 				(font
