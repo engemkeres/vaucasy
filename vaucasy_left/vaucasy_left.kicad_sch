@@ -3647,6 +3647,88 @@
 				)
 			)
 		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
 		(symbol "Power_Protection:USBLC6-2SC6"
 			(pin_names hide)
 			(exclude_from_sim no)
@@ -6241,6 +6323,10 @@
 		(uuid "45488ff8-ff23-4172-889a-8c88188f4042")
 	)
 	(no_connect
+		(at 90.17 36.83)
+		(uuid "65d8d3b1-6ee9-42e2-a492-c55eaf5996b7")
+	)
+	(no_connect
 		(at 45.72 237.49)
 		(uuid "6977dd0c-1ff3-4578-b80f-ae69eacef91b")
 	)
@@ -6263,6 +6349,10 @@
 	(no_connect
 		(at 45.72 245.11)
 		(uuid "a9160e13-3de4-458b-a0d1-1d22c7bcf036")
+	)
+	(no_connect
+		(at 45.72 234.95)
+		(uuid "ac0341ae-377a-476b-a15a-2d49d661a78e")
 	)
 	(no_connect
 		(at 45.72 209.55)
@@ -8455,6 +8545,18 @@
 		(uuid 4a016d14-43ae-40d2-9209-6eeb48068a42)
 	)
 	(rectangle
+		(start 171.45 44.45)
+		(end 190.5 67.31)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 4b8829a2-94ee-4b78-a02e-ea82b4e6a7cb)
+	)
+	(rectangle
 		(start 64.77 48.26)
 		(end 105.41 74.93)
 		(stroke
@@ -9446,28 +9548,6 @@
 			)
 		)
 	)
-	(global_label "LTRACK_INT"
-		(shape input)
-		(at 45.72 234.95 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "67126c63-dbaa-4120-b923-5a2908c1ba5d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 31.97 234.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "LUART2_TX"
 		(shape input)
 		(at 78.74 186.69 0)
@@ -9591,28 +9671,6 @@
 		(uuid "7a76f6db-263b-4a12-ace8-a22fcb6bd7de")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 36.022 229.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "LTRACK_INT"
-		(shape input)
-		(at 90.17 36.83 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "82841986-444e-4898-9696-84e38547b45a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 76.42 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9996,7 +10054,7 @@
 			)
 		)
 	)
-	(global_label "LROW4"
+	(global_label "LRow 4"
 		(shape input)
 		(at 207.01 274.32 0)
 		(fields_autoplaced yes)
@@ -10008,7 +10066,7 @@
 		)
 		(uuid "d236b677-a8e5-4e2f-9df1-9ff8ddd173c9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 216.2847 274.32 0)
+			(at 216.9499 274.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12502,7 +12560,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12"
 			(at 125.73 110.49 0)
 			(effects
 				(font
@@ -14383,6 +14441,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 173.99 48.26 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5b4402fb-76dc-408c-87a2-9b2a782d6245")
+		(property "Reference" "H1"
+			(at 176.53 46.9899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 176.53 49.5299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+			(at 173.99 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 173.99 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 173.99 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/985ac18f-734e-47a7-9b5d-755313adabb0"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Diode")
 		(at 162.56 270.51 90)
 		(unit 1)
@@ -15266,7 +15388,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Horizontal"
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical"
 			(at 45.72 30.48 0)
 			(effects
 				(font
@@ -15629,7 +15751,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Fuse:Fuse_1206_3216Metric"
+		(property "Footprint" "Fuse:Fuse_0603_1608Metric"
 			(at 149.86 93.98 0)
 			(effects
 				(font
@@ -19010,6 +19132,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 173.99 53.34 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dfda6ee8-9140-49df-860e-830cc5cedbdf")
+		(property "Reference" "H2"
+			(at 176.53 52.0699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 176.53 54.6099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+			(at 173.99 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 173.99 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 173.99 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "vaucasy_left"
+				(path "/985ac18f-734e-47a7-9b5d-755313adabb0"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Diode")
 		(at 162.56 189.23 90)
 		(unit 1)
@@ -20149,6 +20335,70 @@
 			(project ""
 				(path "/985ac18f-734e-47a7-9b5d-755313adabb0"
 					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 173.99 58.42 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f9d55905-36fd-49ab-ba97-df9002558ab2")
+		(property "Reference" "H3"
+			(at 176.53 57.1499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 176.53 59.6899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+			(at 173.99 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 173.99 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 173.99 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "vaucasy_left"
+				(path "/985ac18f-734e-47a7-9b5d-755313adabb0"
+					(reference "H3")
 					(unit 1)
 				)
 			)
