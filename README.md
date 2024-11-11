@@ -5,8 +5,6 @@ vaucasy is a split, ergonomic mechanical keyboard with a pair of OLEDs, rotary e
 
 **Own firmware** with the support of ST's HAL library: in progress
 
-Work notes (in Hungarian): https://www.notion.so/nlab-9985ac32f82a41738eb0365cadbf97ee?pvs=4
-
 ![1](https://github.com/user-attachments/assets/7917d824-a787-4249-a115-28e945eb81ce)
 ![2](https://github.com/user-attachments/assets/f8366ed5-6a11-4206-b333-5a028b618ce8)
 ![01](https://github.com/user-attachments/assets/dff995dc-dcab-41c4-a15a-86fd5dc9f656)
