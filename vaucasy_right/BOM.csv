@@ -1,0 +1,26 @@
+Reference,Value,Datasheet,Footprint,Qty,DNP,JLCPCB part#
+"C1,C2,C3,C4,C5,C7,C13,C14,C15,C16,C17",100n,~,Capacitor_SMD:C_0402_1005Metric,11,,C1525
+C6,10u,~,Capacitor_SMD:C_0603_1608Metric,1,,C19702
+"C8,C9",1u,~,Capacitor_SMD:C_0402_1005Metric,2,,C52923
+"C10,C11",8p,~,Capacitor_SMD:C_0402_1005Metric,2,,C1578
+C12,4.7uF,~,Capacitor_SMD:C_0603_1608Metric,1,,C19666
+"D1,D2,D3,D4,D5,D6,D7,D8,D9,D10,D11,D12,D13,D14,D15,D16,D17,D18,D19,D20,D21,D22,D23,D24,D25,D26,D27,D28,D29,D30,D31,D33",Diode,,ScottoKeebs_Components:Diode_SOD-123,32,,C7420318
+F1,500mA,~,Fuse:Fuse_0603_1608Metric,1,,C210357
+J1,USB_C,https://www.usb.org/sites/default/files/documents/usb_type-c.zip,Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12,1,,C165948
+J2,OLED_128x32,,ScottoKeebs_Components:OLED_128x32,1,,C5248081
+J4,Trackball,~,Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical,1,,
+J5,HC-05 BT,~,Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical,1,,
+J6,DEBUG,~,Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical,1,,
+"R1,R6,R7,R8",10k,~,Resistor_SMD:R_0402_1005Metric,4,,C25744
+R2,100R,~,Resistor_SMD:R_0402_1005Metric,1,,C25076
+"R3,R4",5.1k,~,Resistor_SMD:R_0402_1005Metric,2,,C25905
+"R9,R10,R13,R14",4.7k,~,Resistor_SMD:R_0402_1005Metric,4,,C25900
+"S1,S2,S3,S4,S5,S6,S7,S8,S9,S10,S11,S12,S13,S14,S15,S16,S17,S18,S19,S20,S21,S22,S23,S24,S25,S26,S27,S28,S29,S30,S31",Keyswitch,~,ScottoKeebs_Hotswap:Hotswap_Choc_V1V2_1.00u,31,,
+SW1,SW_SPDT,~,Button_Switch_SMD:SW_SPDT_PCM12,1,,C221841
+SW2,SW_Push,~,ScottoKeebs_Components:Button_TL3342,1,,C115351
+SW3,RotaryEncoder_Switch,~,Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm,1,,C470788
+U1,STM32F401RET6,https://www.st.com/resource/en/datasheet/stm32f401re.pdf,Package_QFP:LQFP-64_10x10mm_P0.5mm,1,,C116978
+U2,USBLC6-2SC6,https://www.st.com/resource/en/datasheet/usblc6-2.pdf,Package_TO_SOT_SMD:SOT-23-6,1,,C2827654
+U3,XC6206,https://www.torexsemi.com/file/xc6206/XC6206.pdf,Package_TO_SOT_SMD:SOT-23-3,1,,C5446
+U4,TRRS,,ScottoKeebs_Components:TRRS_PJ-320A,1,,C22459514
+Y1,8MHz,~,Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm,1,,C7275083
