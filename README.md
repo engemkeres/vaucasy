@@ -1,9 +1,13 @@
 # vaucasy
-Split ergonomic mechanical keyboard PCB
+vaucasy is a split, ergonomic mechanical keyboard with a pair of OLEDs, rotary encoders and a trackball. It features a 4x7 staggered ortho layout on both halves.
+
+**QMK firmware**: https://github.com/engemkeres/qmk_firmware/tree/master/keyboards/vaucasy
+
+**Own firmware** with the support of ST's HAL library: in progress
 
 Work notes (in Hungarian): https://www.notion.so/nlab-9985ac32f82a41738eb0365cadbf97ee?pvs=4
 
-JCLPCB order preview:
+**JCLPCB order preview:**
 
 Right:
 ![top_11_11_2024, 2_26_26 PM](https://github.com/user-attachments/assets/0aa5b8d3-0043-4430-8b81-79b0a3e12a67)
