@@ -5,7 +5,7 @@ The MCU chosen for this project was an STM32F401RET6, because I was familiar wit
 
 **QMK firmware**: https://github.com/engemkeres/qmk_firmware/tree/master/keyboards/vaucasy
 
-**Own firmware** with the support of ST's HAL library: in progress
+**Own firmware** with the support of ST's HAL library: [in progress](https://github.com/engemkeres/vaucasy_firmware)
 
 ![1](https://github.com/user-attachments/assets/7917d824-a787-4249-a115-28e945eb81ce)
 ![2](https://github.com/user-attachments/assets/f8366ed5-6a11-4206-b333-5a028b618ce8)
