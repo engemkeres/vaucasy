@@ -3,7 +3,7 @@ vaucasy is a split, ergonomic mechanical keyboard with a pair of OLEDs, rotary e
 
 The MCU chosen for this project was an STM32F401RET6, because I was familiar with STM32s F4 series.
 
-**QMK firmware**: https://github.com/engemkeres/qmk_firmware/tree/master/keyboards/vaucasy
+[**QMK firmware**](https://github.com/engemkeres/qmk_firmware/tree/master/keyboards/vaucasy)
 
 **Own firmware** with the support of ST's HAL library: [in progress](https://github.com/engemkeres/vaucasy_firmware)
 
